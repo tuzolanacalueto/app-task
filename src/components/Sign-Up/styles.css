@@ -1,0 +1,39 @@
+.sign-up {
+  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.sign-up .content {
+  width: 450px;
+}
+.sign-up .content form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sign-up .content form input,
+.sign-up .content form button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.sign-up .content form button {
+  font-weight: bold;
+  padding: 0.7rem;
+  border: none;
+  background: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-up .content form button:disabled {
+  color: gray;
+  background: #dcdcdc;
+  cursor: not-allowed;
+}
